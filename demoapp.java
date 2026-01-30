@@ -17,6 +17,6 @@ public class DemoAppApplication {
 class ProfileController {
     @GetMapping("/profile")
     public String profile() {
-        return "Welcome to the Demo App!\nName: name\nRole: DevOps Engineer";
+        return "Welcome to the Demo App!\nName: name branch name\nRole: DevOps Engineer";
     }
 }
